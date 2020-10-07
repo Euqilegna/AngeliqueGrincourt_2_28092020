@@ -1,16 +1,18 @@
 #container {
     font-family: "Raleway";
-    padding : 50px;    
+    padding : 40px;    
 }
 
  /*background géré avec une classe pour éviter les répétitions*/
  .backgroundGris{
     background-color: #F2F2F2;
 }
- /*background géré avec une classe pour éviter les répétitions*/
+
+/*background géré avec une classe pour éviter les répétitions*/
 .backgroundBlanc{
     background-color: white;
 }
+
  /*borderradius géré avec une classe pour éviter les répétitions*/
 .borderradius{
     border-radius: 20px;
@@ -26,16 +28,25 @@
     font-weight: bold;
 }
 
+.flex {
+    display: flex;
+}
+
+/* Header */
+
 #headerContainer{
     display: flex;
     justify-content: space-between;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
-#title{
-    margin: 0px;
-    font-family: 'Sansita Swashed';
+#logoReservia{
+    height: 50px;
+    width: 100px;
+}
+
+#headerNav{
+    display: flex;
+    align-items: center;
 }
 
 a {
@@ -47,6 +58,48 @@ a {
 a:hover {
     color: #0065FC;
 }
+
+/* Section 1 */
+#mapsFontAnsewome {
+    background: #F2F2F2;
+    padding: 15px;
+    border-radius: 15px 0px 0px 15px; 
+}
+
+#textareaSearch{
+    resize: none;
+    border: 1px solid #f2f2f2;
+    font-family: 'Raleway';
+    padding: 15px;
+}
+
+#searchButton{
+    background-color: #0065FC;
+    color: #ffff;
+    padding: 15px;
+    margin: 0;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.filterFontAnsewome{
+    background: #DEEBFF;
+    color: #0065FC;
+    padding: 15px;
+    border-radius: 100%; 
+}
+
+.rulesFilter {
+    margin: 15px;
+    padding-right: 15px;
+    border: 1px solid #cecece;
+    border-radius: 24px;
+}
+
+#informationFontAnsewome {
+    color: #0065FC;
+}
+
+/* Section 2 */
 
 #section2Container {
     display: flex;
@@ -63,9 +116,25 @@ li {
     margin-right: 30px;
     margin-bottom: 30px;;
 }
+
 #hebergementSection {
     width: 880px;
     height: 625px;
 }
+
+/* Section 3 */
+
+
+
+/* Footer */
+
+
+
+
+
+
+
+
+
 
 
