@@ -1,27 +1,34 @@
+body {
+    margin: 0; 
+}
+
 #container {
     font-family: "Raleway";
-    padding : 40px;    
+    padding : 0 40px;
 }
 
  /*background géré avec une classe pour éviter les répétitions*/
- .backgroundGris{
+ .greyBackground{
     background-color: #F2F2F2;
 }
 
 /*background géré avec une classe pour éviter les répétitions*/
-.backgroundBlanc{
+.whiteBackground{
     background-color: white;
 }
 
  /*borderradius géré avec une classe pour éviter les répétitions*/
 .borderradius{
     border-radius: 20px;
-    padding: 20px;
 }
 
- /*background géré avec une classe pour éviter les répétitions*/
-.textColorDarkBlue{
-    color: #0065FC ;
+ /*couleur géré avec une classe pour éviter les répétitions*/
+.darkBlueColor{
+    color: #0065FC !important;
+}
+
+.greyColor{
+    color: #F2F2F2;
 }
 
 .bold{
@@ -31,6 +38,7 @@
 .flex {
     display: flex;
 }
+
 
 /* Header */
 
@@ -42,27 +50,32 @@
 #logoReservia{
     height: 50px;
     width: 100px;
+    margin-top: 60px;
 }
 
 #headerNav{
-    display: flex;
-    align-items: center;
+    position: relative;
+    display: flex;   
 }
 
-a {
+.linkNav{
     text-decoration: none;
-    margin: 20px; 
-    color : black 
+    margin: 0 20px; 
+    padding-top: 62px;
+    color : black;
 }
 
-a:hover {
+.linkNav:hover {
     color: #0065FC;
+    border-top: 2px #0065FC solid;
+    padding-top: 60px;
 }
 
 /* Section 1 */
+    /*Search Bar*/
 #mapsFontAnsewome {
     background: #F2F2F2;
-    padding: 15px;
+    padding: 16px;
     border-radius: 15px 0px 0px 15px; 
 }
 
@@ -70,40 +83,86 @@ a:hover {
     resize: none;
     border: 1px solid #f2f2f2;
     font-family: 'Raleway';
-    padding: 15px;
+    padding: 13px;
+    font-size: 16px;
 }
 
 #searchButton{
+    text-decoration: none;
     background-color: #0065FC;
     color: #ffff;
-    padding: 15px;
+    padding: 14px;
     margin: 0;
     border-radius: 0px 15px 15px 0px;
 }
 
-.filterFontAnsewome{
-    background: #DEEBFF;
-    color: #0065FC;
-    padding: 15px;
-    border-radius: 100%; 
+    /*Filter Bar*/
+#filterBar {
+    align-items: center;
+    margin-top: 15px;
 }
 
-.rulesFilter {
-    margin: 15px;
-    padding-right: 15px;
+.backgroundBorder{
+    position: relative;
+    border: #cecece 2px solid;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 0 25px 0 55px;
+    height: 46px
+}
+
+.backgroundIcone{
+    position: absolute;
+    background-color: #DEEBFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;  
+    left: -5px;
+    top: -2px;
+}
+
+.backgroundBorder:hover{
+    background-color: #0065FC;
+    color: white;
+    transition: background-color 1s, color 1s ;
+}
+
+.textFilter{
+    margin: auto;
+}
+    /*Information Bar */
+#informationBar{
+    align-items: center;
+}
+
+.borderInformationFontAnsewome {
+    color: #0065FC;
+    width: 20px;
+    height: 20px;
     border: 1px solid #cecece;
-    border-radius: 24px;
+    border-radius: 20px;
+    font-size: 13px;
 }
 
-#informationFontAnsewome {
-    color: #0065FC;
+.informationText{
+    margin-left: 10px;
 }
+
+.marginFont{
+    margin: auto;
+}
+
+
 
 /* Section 2 */
 
 #section2Container {
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+#hebergementSection{
 }
 
 #hebergementUl {
@@ -112,14 +171,16 @@ a:hover {
     flex-wrap: wrap;
 }
 
-li {
-    margin-right: 30px;
-    margin-bottom: 30px;;
+#hebergementSection {
+    width: 70%;
+    height: 100%;
 }
 
-#hebergementSection {
-    width: 880px;
-    height: 625px;
+.herbergementImg{
+    height: 110px;
+    width: 235px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 /* Section 3 */

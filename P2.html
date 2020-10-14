@@ -17,102 +17,151 @@
             <div id="headerContainer">
                 <img id="logoReservia" src="images/logo/Reservia@3x.png">
                 <nav id="headerNav">
-                    <a href="#hebergementSection" title="hebergement"> Hébergements </a>
-                    <a href="#" title="activites"> Activités </a>
-                    <a href="#" title="inscription" class="bold textColorDarkBlue">S'inscrire </a>
+                    <a href="#hebergementSection" title="hebergement" class="linkNav"> Hébergements </a>
+                    <a href="#" title="activites" class="linkNav"> Activités </a>
+                    <a href="#" title="inscription" class="bold linkNav darkBlueColor">S'inscrire </a>
                 </nav>
             </div>
         </header>
 
-        <section>
-            <div id="section1Container">
+        <section id="section1">
+            <div>
                 <h2> Trouvez votre hébergements pour des vacances de rêve </h2>
                 <p> En plein centre ville ou en pleine nature </p>
-                <span id="searchBar" class="flex">
-                    <i id="mapsFontAnsewome" class="fas fa-map-marker-alt"></i>
-                    <textarea name="textareaSearch" id="textareaSearch" cols="20" rows="1"
-                        class="bold"> Marseille, France</textarea>
-                    <a href="#" id="searchButton" class="bold"> Rechercher </a>
-                </span>
-
-                <span id="filterBar" class="flex">
-                    <p class="bold"> Filtres </p>
-                    <p class="bold rulesFilter">
-                        <i class="fas fa-money-bill-wave filterFontAnsewome"></i>
-                        Economique
-                    </p>
-                    <p class="bold rulesFilter ">
-                        <i class="fas fa-child filterFontAnsewome"></i>
-                        Familial
-                    </p>
-                    <p class="bold rulesFilter">
-                        <i class="fas fa-heart filterFontAnsewome"></i>
-                        Romantique
-                    </p>
-                    <p class="bold rulesFilter">
-                        <i class="fas fa-dog filterFontAnsewome "></i>
-                        Animaux Autorisés
-                    </p>
-                </span>
-
-                <span class="flex">
-                    <i id="informationFontAnsewome" class="fas fa-info"></i>
-                    <p> Plus de 500 logements sont disponibles dans cette ville</p>
-                </span>
-
             </div>
+
+            <div id="searchBar" class="flex">
+                <span class="flex">
+                    <i id="mapsFontAnsewome" class="fas fa-map-marker-alt marginFont"></i>
+                </span>
+                <textarea name="textareaSearch" id="textareaSearch" cols="20" rows="1"
+                    class="bold"> Marseille, France</textarea>
+                <a href="#" id="searchButton" class="bold"> Rechercher </a>
+            </div>
+
+            <div id="filterBar" class="flex">
+                <p class="bold"> Filtres </p>
+                <div class="flex backgroundBorder">
+                    <span class="flex backgroundIcone">
+                        <i class="fas fa-money-bill-wave darkBlueColor marginFont"></i>
+                    </span>
+                    <p class="bold textFilter"> Économique</p>
+                </div>
+                <div class="flex backgroundBorder">
+                    <span class=" flex backgroundIcone">
+                        <i class="fas fa-child darkBlueColor marginFont"></i>
+                    </span>
+                    <p class="bold textFilter"> Familial </p>
+                </div>
+                <div class="flex backgroundBorder">
+                    <span class=" flex backgroundIcone">
+                        <i class="fas fa-heart darkBlueColor marginFont"></i>
+                    </span>
+                    <p class="bold textFilter"> Romantique </p>
+                </div>
+                <div class="flex backgroundBorder">
+                    <span class=" flex backgroundIcone backgroundIcone">
+                        <i class="fas fa-dog darkBlueColor marginFont"></i>
+                    </span>
+                    <p class="bold textFilter"> Animaux Autorisés </p>
+                </div>
+            </div>
+
+            <div id="informationBar" class="flex">
+                <span class="flex borderInformationFontAnsewome">
+                    <i class="fas fa-info marginFont"></i>
+                </span>
+                <p class="informationText"> Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+
         </section>
 
-        <!-- <section>
+        <section id="section2">
             <div id="section2Container">
-                <div id="hebergementSection" class="borderradius backgroundGris">
-                    <span class="bold"> Hébergements à Marseille </span>
+                <div id="hebergementSection" class="borderradius greyBackground">
+                    <h3 class="bold"> Hébergements à Marseille </h3>
                     <ul id="hebergementUl">
-                        <li class="backgroundBlanc borderradius"><span class="bold"> Auberge de la Cannebière
+                        <li class="whiteBackground borderradius ">
+                            <img class="herbergementImg"
+                                src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
+                            <p class="bold pMargin">Auberge de la Cannebière </p>
+                            <p class="pMargin">Nuit à partir de <strong>25€</strong></p>
+                            <span>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star greyColor"></i>
                             </span><br>
-                            Nuit à partir de 25 €
-                        </li>
-                        <li class="backgroundBlanc borderradius"><span class="bold"> Auberge de la Cannebière
+                        <li class="whiteBackground borderradius ">
+                            <img class="herbergementImg"
+                                src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
+                            <p class="bold">Hôtel du Port </p>
+                            <p>Nuit à partir de <strong>52€</strong></p>
+                            <span>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
                             </span><br>
-                            Nuit à partir de 25 €
-                        </li>
-                        <li class="backgroundBlanc borderradius"><span class="bold"> Auberge de la Cannebière
+                        <li class="whiteBackground borderradius">
+                            <img class="herbergementImg"
+                                src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg">
+                            <p class="bold"> Hôtel Les mouettes </p>
+                            <p>Nuit à partir de <strong>76€</strong></p>
+                            <span>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star greyColor"></i>
                             </span><br>
-                            Nuit à partir de 25 €
-                        </li>
-                        <li class="backgroundBlanc borderradius"><span class="bold"> Auberge de la Cannebière
+                        <li class="whiteBackground borderradius ">
+                            <img class="herbergementImg"
+                                src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
+                            <p class="bold"> Hôtel de la mer </p>
+                            <p>Nuit à partir de <strong>46€</strong></p>
+                            <span>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star greyColor"></i>
+                                <i class="fas fa-star greyColor"></i>
                             </span><br>
-                            Nuit à partir de 25 €
-                        </li>
-                        <li class="backgroundBlanc borderradius"><span class="bold"> Auberge de la Cannebière
+                        <li class="whiteBackground borderradius ">
+                            <img class="herbergementImg"
+                                src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
+                            <p class="bold"> Auberge Le Panier </p>
+                            <p>Nuit à partir de <strong>23€</strong></p>
+                            <span>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star greyColor"></i>
                             </span><br>
-                            Nuit à partir de 25 €
-                        </li>
-                        <li class="backgroundBlanc borderradius"><span class="bold"> Auberge de la Cannebière
+                        <li class="whiteBackground borderradius">
+                            <img class="herbergementImg"
+                                src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
+                            <p class="bold">Hôtel chez Amina </p>
+                            <p>Nuit à partir de <strong>96€</strong></p>
+                            <span>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
+                                <i class="fas fa-star darkBlueColor"></i>
                             </span><br>
-                            Nuit à partir de 25 €
+                            <p class="bold"> Afficher plus </p>
                         </li>
-                        <li class="backgroundBlanc borderradius"><span class="bold"> Auberge de la Cannebière
-                            </span><br>
-                            Nuit à partir de 25 €
-                        </li>
+
                     </ul>
                 </div>
 
-                <div id="populaire" class="borderradius backgroundGris">
+                <div id="populaire" class="borderradius greyBackground">
                     <span class="bold"> Les plus populaires </span>
                     <ul id=populaireUl>
-                        <li class="backgroundBlanc borderradius"><span class="bold"> Auberge de la Cannebière
-                            </span><br>
-                            Nuit à partir de 25 € </li>
-                        <li class="backgroundBlanc borderradius"><span class="bold"> Auberge de la Cannebière
-                            </span><br>
-                            Nuit à partir de 25 €
-                        </li>
-                        <li class="backgroundBlanc borderradius"><span class="bold"> Auberge de la Cannebière
-                            </span><br>
-                            Nuit à partir de 25 €
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -122,7 +171,7 @@
         <footer>
 
         </footer>
-    </div>  -->
+    </div>
 
 </body>
 
