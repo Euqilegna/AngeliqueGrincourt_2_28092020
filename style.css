@@ -40,6 +40,7 @@ body {
 }
 
 
+
 /* Header */
 
 #headerContainer{
@@ -79,13 +80,18 @@ body {
     border-radius: 15px 0px 0px 15px; 
 }
 
-#textareaSearch{
-    resize: none;
-    border: 1px solid #f2f2f2;
-    font-family: 'Raleway';
-    padding: 13px;
-    font-size: 16px;
+#site-search{
+    border: 1px solid #cecece;
 }
+
+::placeholder{
+    color: black;
+    font-family: 'Raleway';
+    font-size: 15px;
+    font-weight: bold;
+    padding : 5px
+}
+
 
 #searchButton{
     text-decoration: none;
@@ -153,7 +159,6 @@ body {
 }
 
 
-
 /* Section 2 */
 
 #section2Container {
@@ -162,35 +167,104 @@ body {
     justify-content: space-between;
 }
 
-#hebergementSection{
-}
-
-#hebergementUl {
+#hebergementFlex {
     list-style:none; 
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px
 }
 
 #hebergementSection {
-    width: 70%;
-    height: 100%;
+    width: 65%;
 }
 
 .herbergementImg{
     height: 110px;
-    width: 235px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#herbergementPopulaire{
+    width: 30%;
+}
+
+.backgroundVignette{
+    width: 270px;
+    background-color: white;
+    padding : 5px;
+    margin: 30px;
+    box-shadow: 3px 2px 10px #cecece;
+}
+
+.textVignette{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.boxPadding{
+    padding: 50px
+}
+
+.back{
+    display: flex;
+    width: 400px;
+    background-color: white;
+    padding: 5px;
+    margin: 30px;
+    box-shadow: 3px 2px 10px #cecece;
+}
+
+#populaireUl{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.populaireImg{
+    height: 139px;
+    width: 152px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 /* Section 3 */
 
+#activitesSection{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
 
+#boxActivites{
+    display: flex;
+    justify-content: space-between;
+}
 
+.activiteImg{
+    height: 110px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.backgroundActiviteVignette{
+    width: 270px;
+    background-color: white;
+
+    box-shadow: 3px 2px 10px #cecece;
+}
 /* Footer */
 
+.footer{
+    display: flex;
+}
 
-
+.paddingFooter{
+    padding: 30px;
+}
 
 
 
