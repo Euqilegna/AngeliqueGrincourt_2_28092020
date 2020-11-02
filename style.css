@@ -2,28 +2,25 @@ body {
     margin: 0; 
 }
 
-#container {
+.container {
     font-family: "Raleway";
-    max-width: 1439px;
+    max-width: 1280px;
     margin: auto;
 }
 
- /*background géré avec une classe pour éviter les répétitions*/
+ /*class pour éviter les répétitions*/
  .greyBackground{
     background-color: #F2F2F2;
 }
 
-/*background géré avec une classe pour éviter les répétitions*/
 .whiteBackground{
     background-color: white;
 }
 
- /*borderradius géré avec une classe pour éviter les répétitions*/
 .borderradius{
     border-radius: 20px;
 }
 
- /*couleur géré avec une classe pour éviter les répétitions*/
 .darkBlueColor{
     color: #0065FC !important;
 }
@@ -41,11 +38,22 @@ body {
 }
 
 
+a {
+    text-decoration: none;
+}
+
+h3{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+} 
+
 
 /* Header */
 
 #headerContainer{
-    display: flex;
     justify-content: space-between;
 }
 
@@ -56,8 +64,7 @@ body {
 }
 
 #headerNav{
-    position: relative;
-    display: flex;   
+    position: relative;  
 }
 
 .linkNav{
@@ -73,8 +80,14 @@ body {
     padding-top: 60px;
 }
 
+
 /* Section 1 */
     /*Search Bar*/
+
+#searchBar{
+    margin-top: 15px;
+}
+
 #mapsFontAnsewome {
     background: #F2F2F2;
     padding: 16px;
@@ -82,7 +95,7 @@ body {
 }
 
 #site-search{
-    border: 1px solid #cecece;
+    border: 1px solid #f2f2f2;
 }
 
 ::placeholder{
@@ -111,7 +124,7 @@ body {
 
 .backgroundBorder{
     position: relative;
-    border: #cecece 2px solid;
+    border: #F2F2F2 2px solid;
     border-radius: 25px;
     margin: 20px;
     padding: 0 25px 0 55px;
@@ -146,7 +159,7 @@ body {
     color: #0065FC;
     width: 20px;
     height: 20px;
-    border: 1px solid #cecece;
+    border: 1px solid #F2F2F2;
     border-radius: 20px;
     font-size: 13px;
 }
@@ -162,13 +175,23 @@ body {
 
 /* Section 2 */
 
+/*HostingMarseille*/
+
 #section2Container {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
 
-#hebergementFlex {
+#hostingContainer {
+    width: 65%;
+}
+
+.boxPadding{
+    padding: 20px 40px;
+}
+
+#hostingsBox {
     list-style:none; 
     display: flex;
     flex-wrap: wrap;
@@ -176,105 +199,211 @@ body {
     padding: 0px
 }
 
-#hebergementSection {
-    width: 65%;
+.containerPresentationHostings{
+    width: 30%;
+    height: 195px;
+    background-color: white;
+    box-shadow: 3px 2px 10px #F2F2F2;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    border: 5px solid white;
+    margin-bottom: 30px;
 }
 
-.herbergementImg{
+.imgHostings{
     width: 100%;
+    height: 115px;
+    background-position: center;
+    background-size: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    max-height: 127px;
-    object-fit: cover;
 }
 
-#herbergementPopulaire{
-    width: 30%;
+#hosting1{
+    background-image: url(/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
 }
 
-.backgroundVignetteHebergement{
-    width: 30%;
-    background-color: white;
-    padding : 5px;
-    box-shadow: 3px 2px 10px #cecece;
-    text-decoration: none;
-    color: black;
-    margin-bottom: 20px;
+#hosting2{
+    background-image: url(/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
 }
 
-
-.textVignette{
-    padding-left: 10px;
-    padding-bottom: 5px;
+#hosting3{
+    background-image: url(/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
 }
 
-.boxPadding{
-    padding: 50px
+#hosting4{
+    background-image: url(/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
 }
 
-.backgroundVignettePopulaire{
+#hosting5{
+    background-image: url(/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+}
+
+#hosting6{
+    background-image: url(/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+}
+
+.textPresentationHostings{
+    margin: 10px;
+    line-height: 23px;
+    font-size: 15px;
+}
+
+/*Popular Hosting*/
+#popularHostingContainer{
+    width: 32%;
+}
+.headerPopular{
     display: flex;
-    width: 400px;
-    background-color: white;
-    padding: 5px;
-    box-shadow: 3px 2px 10px #cecece;
-    text-decoration: none;
-    color: black;
+    align-items: center;
+    justify-content: space-between;
 }
 
-#populaireUl{
-    list-style: none;
+#popularIcon{
+    font-size: 30px;
+}
+
+#popularHostingsBox{
     padding: 0;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.populaireImg{
+.containerPopularHostings{
+    display: flex;
+    width: 400px;
+    height: 140px;
+    background-color: white;
+    box-shadow: 3px 2px 10px #F2F2F2;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    border: 5px solid white;
+    margin-bottom: 30px;
+}
+
+.popularImg{
     height: 139px;
     width: 152px;
+    background-size: cover;
+    background-position: center;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
 
+#hostingPopular1{
+    background-image: url(/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+}
+
+#hostingPopular2{
+    background-image: url(/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+}
+
+#hostingPopular3{
+    background-image: url(/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+}
+
+.textPopularHostings{
+    position: relative;
+    font-size: 15px;
+    width: 155px;
+    padding: 15px;
+    line-height: 23px;
+}
+
+.starsScore{
+    position: absolute;
+    bottom: 5px;
+}
+
 /* Section 3 */
 
-#activitesSection{
+#activitiesSection{
     margin-top: 60px;
     margin-bottom: 60px;
 }
 
-#boxActivites{
-    display: flex;
+#activitiesBox{
     justify-content: space-between;
 }
 
-.activitelargeImg{
+.activitiesLinks{
+    text-decoration: none;
+    color: black;
+}  
+
+.containerActivities{
     width: 100%;
-    height: 389px;
-    object-fit: cover;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    background-color: white;
+    box-shadow: 3px 2px 10px #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    bottom: 0;
 }
 
-.backgroundVignetteActivite{
+.rulesImg{
     width: 300px;
-    background-color: white;
-    box-shadow: 3px 2px 10px #cecece;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-shadow: 3px 2px 10px #F2F2F2;
 }
+
+#imgActivites1{
+    background-image: url(/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    height: 450px;
+    
+}
+
+#imgActivites2{
+    background-image: url(/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    height: 237px;
+    margin-bottom: 48px;
+}
+
+#imgActivites3{
+    background-image: url(/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    height: 165px;
+    
+}
+
+#imgActivites4{
+    background-image: url(/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    height: 450px;
+}
+    
+#imgActivites5{
+    background-image: url(/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    width: 300px;
+    height: 195px;
+    margin-bottom: 45px;
+
+}
+
+#imgActivites6{
+    background-image: url(/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    width: 300px;
+    height: 210px;
+}
+
+.textActivities{ 
+    margin: 20px;
+    font-size: 15px;
+}
+
 
 /* Footer */
 
-.footer{
-    display: flex;
+.paddingFooter{
     padding: 40px 0;
-
 }
 
-.widthFooter
-{
+.widthBoxesFooter{
     width: 33%;
-    
 }
 
 li{
@@ -286,47 +415,5 @@ ul{
     padding: 0;
 }
 
-/* Test */
-.bigVignette{
-    height: 446px;
-   
-}
 
-.mediumVignette{
-    height: 208px;
-    
-}
 
-.smallVignette{
-    height: 236px;
-   
-}
-
-.xsmallVignette{
-    height: 162px;
-    
-}
-
-.mediumActiviteImg{
-    width: 100%;
-    max-height: 150px;
-    object-fit: cover;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.smallActiviteImg{
-    width: 100%;
-    max-height: 180px;
-    object-fit: cover;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.xsmallActiviteImg{
-    width: 100%;
-    max-height: 110px;
-    object-fit: cover;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}

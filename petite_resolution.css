@@ -1,0 +1,117 @@
+.container {
+    max-width: 337px;
+} 
+
+.flex{
+    display: block;
+}
+
+#logoReservia{
+    margin-top: 30px;
+}
+
+#headerContainer{
+
+}
+
+#headerNav{
+    display: flex;
+    justify-content: space-around;
+}
+
+#inscription{
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+}
+
+.linkNav{
+    padding: 10px;
+}
+
+
+
+#searchBar{
+    display: flex;
+}
+
+#informationBar{
+    display: flex;
+    font-size: small;
+}
+
+.backgroundBorder{
+    display: flex;
+}
+
+.backgroundIcone{
+    display: flex;
+}
+
+.borderInformationFontAnsewome{
+    display : flex;
+}
+
+#section2Container{
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+.boxPadding{
+    padding: 0;
+}
+
+#hostingContainer{
+    width: 100%;
+    background: none;
+}
+
+.containerPresentationHostings{
+    display: block;
+    width: 100%;
+}
+
+#popularHostingContainer{
+    width: 100%;
+    border-radius: 0;
+}
+
+#imgActivites1{
+    width: 100%;
+    height: 190px;
+    margin-bottom: 30px;
+}
+
+#imgActivites2{
+    width: 100%;
+    height: 190px;
+    margin-bottom: 30px;
+}
+
+#imgActivites3{
+    width: 100%;
+    height: 190px;
+    margin-bottom: 30px;
+}
+
+#imgActivites4{
+    width: 100%;
+    height: 190px;
+    margin-bottom: 30px;
+}
+
+#imgActivites5{
+    width: 100%;
+    height: 190px;
+    margin-bottom: 30px;
+}
+
+#imgActivites6{
+    width: 100%;
+    height: 190px;
+    margin-bottom: 30px;
+}
+
+.widthBoxesFooter{
+    width: 100%;
+}
