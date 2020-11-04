@@ -1,0 +1,68 @@
+.container {
+    max-width: 768px;
+} 
+
+.flex {
+    display: block;
+}
+
+.paddingResponsive{
+    padding: 1em;
+}
+
+#logoReservia{
+    padding: 1em;
+}
+
+#headerContainer {
+    justify-content: space-between;
+    display: flex;
+}
+
+#headerNav{
+    display: flex;
+}
+
+#filter{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.backgroundBorder{
+    display: flex;
+    position: relative;
+    border: #F2F2F2 2px solid;
+    border-radius: 25px;
+    margin: 3px;
+    padding: 0 25px 0 55px;
+    height: 46px;
+}
+
+.backgroundIcone{
+    display: flex;
+}
+
+.borderInformationFontAnsewome{
+    display : flex;
+}
+
+#informationBar{
+    align-items: center;
+    display: flex;
+}
+
+
+#section2Container {
+    margin-top: 20px;
+    display: block;
+    justify-content: space-between;
+}
+
+#hostingContainer {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#popularHostingContainer {
+    width: 100%;
+}
