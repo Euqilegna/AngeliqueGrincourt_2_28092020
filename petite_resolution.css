@@ -1,38 +1,90 @@
 .container {
-    max-width: 337px;
+    max-width: 375px;
+    
 } 
+
+.paddingResponsive{
+    padding: 1em;
+}
 
 .flex{
     display: block;
 }
 
 #logoReservia{
-    margin-top: 30px;
+    padding: 1em;
+    margin-top: 0;
 }
-
-#headerContainer{
-
-}
-
-#headerNav{
-    display: flex;
-    justify-content: space-around;
-}
-
-#inscription{
-    position: absolute;
-    bottom: 40px;
-    right: 0;
-}
-
-.linkNav{
-    padding: 10px;
-}
-
-
 
 #searchBar{
     display: flex;
+    margin-top: 0;
+}
+
+
+#filterBar{
+    margin-top: 0;
+}
+
+#headerNav{
+    text-align: center;
+    border-bottom: 2px solid #F2F2F2;
+    padding-bottom: 5px;
+}
+
+#subscription{
+    position: absolute;
+    top: -50px;
+    right: 25px;
+}
+
+.linkNav {
+    text-decoration: none;
+    margin: 0;
+    padding-top: 0px;
+    color: black;
+}
+
+.Active{
+    padding: 5px 49px;
+}
+
+.Active:hover {
+    color: #0065FC;
+    border-bottom: 2px #0065FC solid;
+    border-top: none;
+    padding-top: 0;
+}
+
+#site-search{
+    width: 70%;
+}
+
+#searchButtonMax{
+    display: none;
+}
+
+#searchButtonMin{
+    visibility: visible;
+    position: absolute;
+    text-decoration: none;
+    background-color: #0065FC;
+    color: #ffff;
+    padding: 14px;
+    margin: 0;
+    border-radius: 15px;
+    position: absolute;
+    right: 45px;
+}
+
+.titleSection{
+    font-size: 15px;
+    text-align: left;
+}
+
+.iconSearch{
+    visibility: visible;
+    padding: 2px;
 }
 
 #informationBar{
@@ -40,8 +92,20 @@
     font-size: small;
 }
 
+#filter{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+
 .backgroundBorder{
     display: flex;
+    position: relative;
+    border: #F2F2F2 2px solid;
+    border-radius: 25px;
+    margin: 3px;
+    padding: 0 25px 0 55px;
+    height: 46px;
 }
 
 .backgroundIcone{
@@ -57,13 +121,13 @@
     width: 100%;
 }
 
-.boxPadding{
-    padding: 0;
-}
-
 #hostingContainer{
     width: 100%;
     background: none;
+}
+
+.boxPadding {
+    padding: 10px 20px;
 }
 
 .containerPresentationHostings{

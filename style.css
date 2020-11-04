@@ -1,9 +1,9 @@
 body {
-    margin: 0; 
+    margin: 0;
+    font-family: "Raleway"; 
 }
 
 .container {
-    font-family: "Raleway";
     max-width: 1280px;
     margin: auto;
 }
@@ -74,7 +74,7 @@ p{
     color : black;
 }
 
-.linkNav:hover {
+.Active:hover {
     color: #0065FC;
     border-top: 2px #0065FC solid;
     padding-top: 60px;
@@ -103,11 +103,12 @@ p{
     font-family: 'Raleway';
     font-size: 15px;
     font-weight: bold;
-    padding : 5px
+    padding : 15px
 }
 
 
-#searchButton{
+#searchButtonMax{
+    visibility: visible;
     text-decoration: none;
     background-color: #0065FC;
     color: #ffff;
@@ -116,11 +117,21 @@ p{
     border-radius: 0px 15px 15px 0px;
 }
 
+#searchButtonMin{
+    visibility: hidden;
+}
+
+.iconSearch{
+    visibility: hidden;
+    
+}
+
     /*Filter Bar*/
 #filterBar {
     align-items: center;
     margin-top: 15px;
 }
+
 
 .backgroundBorder{
     position: relative;

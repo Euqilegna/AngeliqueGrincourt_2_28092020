@@ -16,67 +16,67 @@
 <body>
     <div class="container">
         <header>
-            <div id="headerContainer" class="flex">
+            <div id="headerContainer" class="flex ">
                 <img id="logoReservia" src="images/logo/Reservia@3x.png" alt="logodusite">
                 <nav id="headerNav" class="flex">
-                    <a href="#hebergementSection" id="hebergement" class="linkNav Active"> Hébergements </a>
-                    <a href="#activitesSection" id="activites" class="linkNav Active"> Activités </a>
-                    <a href="#" id="inscription" class="bold linkNav darkBlueColor Disable">S'inscrire </a>
+                    <a href="#hostingContaine" id="hebergement" class="linkNav Active"> Hébergements </a>
+                    <a href="#popularHostingContaine" id="activites" class="linkNav Active"> Activités </a>
+                    <a href="#" id="subscription" class="linkNav bold darkBlueColor">S'inscrire </a>
                 </nav>
             </div>
         </header>
 
         <section>
-            <div>
-                <h2> Trouvez votre hébergements pour des vacances de rêve </h2>
+            <div class="titleSection paddingResponsive ">
+                <h2> Trouvez votre hébergement pour des vacances de rêve </h2>
                 <p> En plein centre ville ou en pleine nature </p>
             </div>
 
-            <div id="searchBar" class="flex">
+            <div id="searchBar" class="flex paddingResponsive">
                 <span>
                     <i id="mapsFontAnsewome" class="fas fa-map-marker-alt marginFont"></i>
                 </span>
                 <input type="search" id="site-search" name="q" aria-label="Search through site content"
                     placeholder="Marseille, France">
-                <a href="#" id="searchButton" class="bold"> Rechercher </a>
+                <a href="#" id="searchButtonMax" class="bold"> Rechercher </a>
+                <a href="#" id="searchButtonMin" class="bold"><i class="iconSearch fas fa-search"></i> </a>
             </div>
 
-            <div id="filterBar" class="flex">
+            <div id="filterBar" class="flex paddingResponsive">
                 <p class="bold"> Filtres </p>
-                <div class="flex backgroundBorder">
-                    <span class="flex backgroundIcone">
-                        <i class="fas fa-money-bill-wave darkBlueColor marginFont"></i>
-                    </span>
-                    <p class="bold textFilter"> Économique</p>
-                </div>
-                <div class="flex backgroundBorder">
-                    <span class=" flex backgroundIcone">
-                        <i class="fas fa-child darkBlueColor marginFont"></i>
-                    </span>
-                    <p class="bold textFilter"> Familial </p>
-                </div>
-                <div class="flex backgroundBorder">
-                    <span class=" flex backgroundIcone">
-                        <i class="fas fa-heart darkBlueColor marginFont"></i>
-                    </span>
-                    <p class="bold textFilter"> Romantique </p>
-                </div>
-                <div class="flex backgroundBorder">
-                    <span class=" flex backgroundIcone backgroundIcone">
-                        <i class="fas fa-dog darkBlueColor marginFont"></i>
-                    </span>
-                    <p class="bold textFilter"> Animaux Autorisés </p>
+                <div id="filter" class="flex ">
+                    <div class="flex backgroundBorder">
+                        <span class="flex backgroundIcone">
+                            <i class="fas fa-money-bill-wave darkBlueColor marginFont"></i>
+                        </span>
+                        <p class="bold textFilter"> Économique</p>
+                    </div>
+                    <div class="flex backgroundBorder">
+                        <span class=" flex backgroundIcone">
+                            <i class="fas fa-child darkBlueColor marginFont"></i>
+                        </span>
+                        <p class="bold textFilter"> Familial </p>
+                    </div>
+                    <div class="flex backgroundBorder">
+                        <span class=" flex backgroundIcone">
+                            <i class="fas fa-heart darkBlueColor marginFont"></i>
+                        </span>
+                        <p class="bold textFilter"> Romantique </p>
+                    </div>
+                    <div class="flex backgroundBorder">
+                        <span class=" flex backgroundIcone backgroundIcone">
+                            <i class="fas fa-dog darkBlueColor marginFont"></i>
+                        </span>
+                        <p class="bold textFilter"> Animaux Autorisés </p>
+                    </div>
                 </div>
             </div>
-
-
-            <div id="informationBar" class="flex">
+            <div id="informationBar" class="flex paddingResponsive">
                 <span class="flex borderInformationFontAnsewome">
                     <i class="fas fa-info marginFont"></i>
                 </span>
                 <p class="informationText"> Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
-
         </section>
 
         <section>
@@ -230,7 +230,7 @@
             </div>
         </section>
         <section>
-            <div id="activitiesSection">
+            <div id="activitiesSection" class="paddingResponsive">
                 <h1 class="bold"> Activités à Marseille</h1>
                 <div id="activitiesBox" class="flex">
                     <a href="#" class="activitiesLinks">
@@ -297,7 +297,7 @@
     </div>
     <footer>
         <div class="greyBackground">
-            <div class="container">
+            <div class="container paddingResponsive">
                 <div class="paddingFooter flex">
                     <div class="widthBoxesFooter ">
                         <h3>A propos</h3>
