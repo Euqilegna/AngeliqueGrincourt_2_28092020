@@ -42,11 +42,11 @@ a {
     text-decoration: none;
 }
 
-h3{
+h4 {
     margin: 0;
 }
 
-p{
+p {
     margin: 0;
 } 
 
@@ -69,17 +69,20 @@ p{
 
 .linkNav{
     text-decoration: none;
-    margin: 0 20px; 
-    padding-top: 62px;
+    padding: 62px 30px;
     color : black;
 }
 
-.Active:hover {
+.linkNav:hover {
     color: #0065FC;
     border-top: 2px #0065FC solid;
-    padding-top: 60px;
+    padding: 60px 30px;
 }
 
+#subscription{
+    padding-top: 62px;
+    margin: 0 20px;
+}
 
 /* Section 1 */
     /*Search Bar*/
@@ -96,6 +99,7 @@ p{
 
 #site-search{
     border: 1px solid #f2f2f2;
+    padding: 15px;
 }
 
 ::placeholder{
@@ -103,7 +107,6 @@ p{
     font-family: 'Raleway';
     font-size: 15px;
     font-weight: bold;
-    padding : 15px
 }
 
 
@@ -173,6 +176,7 @@ p{
     border: 1px solid #F2F2F2;
     border-radius: 20px;
     font-size: 13px;
+    margin: 10px 0;
 }
 
 .informationText{
@@ -210,11 +214,12 @@ p{
     padding: 0px
 }
 
+
 .containerPresentationHostings{
     width: 30%;
     height: 195px;
     background-color: white;
-    box-shadow: 3px 2px 10px #F2F2F2;
+    box-shadow: 5px 4px 10px #2120201c;
     text-decoration: none;
     color: black;
     border-radius: 20px;
@@ -261,6 +266,10 @@ p{
     font-size: 15px;
 }
 
+.fa-star{
+    font-size: 12px;
+}
+
 /*Popular Hosting*/
 #popularHostingContainer{
     width: 32%;
@@ -287,7 +296,7 @@ p{
     width: 400px;
     height: 140px;
     background-color: white;
-    box-shadow: 3px 2px 10px #F2F2F2;
+    box-shadow: 5px 4px 10px #2120201c;
     text-decoration: none;
     color: black;
     border-radius: 20px;
@@ -297,7 +306,7 @@ p{
 
 .popularImg{
     height: 139px;
-    width: 152px;
+    width: 125px;
     background-size: cover;
     background-position: center;
     border-top-left-radius: 15px;
@@ -348,7 +357,7 @@ p{
 .containerActivities{
     width: 100%;
     background-color: white;
-    box-shadow: 3px 2px 10px #F2F2F2;
+    box-shadow: 5px 4px 10px #2120201c;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     position: absolute;
@@ -361,11 +370,11 @@ p{
     background-position: center;
     background-size: cover;
     position: relative;
-    box-shadow: 3px 2px 10px #F2F2F2;
+    box-shadow: 5px 4px 10px #2120201c;
 }
 
 #imgActivites1{
-    background-image: url(/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-image: url(/images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
     height: 450px;
     
 }
@@ -377,18 +386,18 @@ p{
 }
 
 #imgActivites3{
-    background-image: url(/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-image: url(/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
     height: 165px;
     
 }
 
 #imgActivites4{
-    background-image: url(/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-image: url(/images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
     height: 450px;
 }
     
 #imgActivites5{
-    background-image: url(/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-image: url(/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
     width: 300px;
     height: 195px;
     margin-bottom: 45px;
@@ -402,7 +411,7 @@ p{
 }
 
 .textActivities{ 
-    margin: 20px;
+    margin: 18px;
     font-size: 15px;
 }
 

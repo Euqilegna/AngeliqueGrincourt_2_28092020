@@ -2,9 +2,6 @@
     max-width: 768px;
 } 
 
-.flex {
-    display: block;
-}
 
 .paddingResponsive{
     padding: 1em;
@@ -12,21 +9,25 @@
 
 #logoReservia{
     padding: 1em;
+    margin: 30px;
 }
 
 #headerContainer {
     justify-content: space-between;
-    display: flex;
 }
 
-#headerNav{
-    display: flex;
+.linkNav{
+    text-decoration: none;
+    padding: 62px 30px;
+    color : black;
 }
 
-#filter{
-    display: flex;
-    margin: 10px 0px;
+.linkNav:hover {
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+    padding: 60px 30px;
 }
+
 
 .backgroundBorder{
     display: flex;
@@ -38,17 +39,8 @@
     height: 46px;
 }
 
-.backgroundIcone{
-    display: flex;
-}
-
-.borderInformationFontAnsewome{
-    display : flex;
-}
-
-#informationBar{
-    align-items: center;
-    display: flex;
+.containerPresentationHostings{
+    width: 45%;
 }
 
 
@@ -65,4 +57,18 @@
 
 #popularHostingContainer {
     width: 100%;
+}
+
+#activitiesBox{
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+#imgActivites1{
+    margin-bottom: 30px;
+}
+
+.footer{
+    justify-content: space-between;
+    text-align: center;
 }

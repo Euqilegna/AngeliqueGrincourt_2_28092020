@@ -10,6 +10,8 @@
     display: block;
 }
 
+/*Header*/
+
 #logoReservia{
     padding: 1em;
     margin-top: 0;
@@ -33,26 +35,21 @@
 
 #subscription{
     position: absolute;
-    top: -50px;
-    right: 25px;
+    bottom: 53px;
+    right: 0px;
 }
 
 .linkNav {
     text-decoration: none;
-    margin: 0;
-    padding-top: 0px;
+    padding: 5px 49px;
     color: black;
 }
 
-.Active{
-    padding: 5px 49px;
-}
-
-.Active:hover {
+.linkNav:hover {
     color: #0065FC;
     border-bottom: 2px #0065FC solid;
     border-top: none;
-    padding-top: 0;
+    padding: 5px 49px;
 }
 
 #site-search{
@@ -132,6 +129,7 @@
 .containerPresentationHostings{
     display: block;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 #popularHostingContainer{
@@ -139,6 +137,13 @@
     border-radius: 0;
 }
 
+.containerPopularHostings{
+    margin-bottom: 10px;
+}
+
+#activitiesSection{
+    margin-top: 0;
+}
 #imgActivites1{
     width: 100%;
     height: 190px;
