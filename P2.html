@@ -5,9 +5,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen and (min-width : 768px) and (max-width : 1024px)"
+    <link rel="stylesheet" media="screen and (min-width : 600px) and (max-width : 1080px)"
         href="css/moyenne_resolution.css">
-    <link rel="stylesheet" media="screen and (max-width : 375px)" href="css/petite_resolution.css">
+    <link rel="stylesheet" media="screen and (min-width : 300px) and (max-width : 600px)"
+        href="css/petite_resolution.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300&display=swap"
         rel="stylesheet">
@@ -20,11 +21,13 @@
         <header>
             <div id="headerContainer" class="flex ">
                 <img id="logoReservia" src="images/logo/Reservia@3x.png" alt="logodusite">
-                <nav id="headerNav" class="flex">
-                    <a href="#hostingContaine" id="hebergement" class="linkNav"> Hébergements </a>
-                    <a href="#popularHostingContaine" id="activites" class="linkNav"> Activités </a>
+                <div class="flex">
+                    <nav id="headerNav" class="flex">
+                        <a href="#hostingContaine" id="hebergement" class="linkNav"> Hébergements </a>
+                        <a href="#popularHostingContaine" id="activites" class="linkNav"> Activités </a>
+                    </nav>
                     <a href="#" id="subscription" class="bold darkBlueColor">S'inscrire </a>
-                </nav>
+                </div>
             </div>
         </header>
 

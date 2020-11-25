@@ -274,6 +274,7 @@ p {
 #popularHostingContainer{
     width: 32%;
 }
+
 .headerPopular{
     display: flex;
     align-items: center;
@@ -287,14 +288,13 @@ p {
 #popularHostingsBox{
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .containerPopularHostings{
     display: flex;
     width: 400px;
-    height: 140px;
     background-color: white;
     box-shadow: 5px 4px 10px #2120201c;
     text-decoration: none;
